@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+    <header class="container header">
+        <nav class="nav">
+            <div class="logo">
+                <h2>Posteritis.</h2>
+            </div>
+            <div class="nav_menu" id="nav_menu">
+                <button class="close_btn" id="close_btn">
+                    <i class="ri-close-fill"></i>
+                </button>
+            </div>
+            <button class="toggle_btn" id="toggle_btn">
+                <i class="ri-menu-line"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section class="wrapper">
+        <div class="container">
+            <div class="grid-cols-2">
+                <div class="grid-item-1">
+                    <h1 class="main-heading">
+                        Organisez vos funerailles avec  <span>Posteritis.</span>
+                        <br />
+                        <br />
+                        Plus de stress, plus d'incertitudes
+                    </h1>
+                    <p class="info-text">
+                        Rejoignez-nous dès maintenant et anticipez l'imprévisible ! 
+                    </p>
+                    <div class="btn_wrapper">
+                        <button onclick="window.location.href = 'prevoyant/inscription/inscription.html' ;" class="btn view_more_btn">Je prépare l'avenir </button>
+                        <button onclick="window.location.href = 'proche/connexion_proche.php' ;" class="btn view_more_btn">J'ai perdu un proche</button>
+                    </div>
+                </div>
+                <div class="grid-item-2">
+                    <div class="team_img_wrapper">
+                        <img src="landing.svg" alt="team-img" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="wrapper">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000">
+            <div class="grid-cols-3">
+                <div class="grid-col-item">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M4 6.14286V18.9669L9.06476 16.7963L15.0648 19.7963L20 17.6812V4.85714L21.303 4.2987C21.5569 4.18992 21.8508 4.30749 21.9596 4.56131C21.9862 4.62355 22 4.69056 22 4.75827V19L15 22L9 19L2.69696 21.7013C2.44314 21.8101 2.14921 21.6925 2.04043 21.4387C2.01375 21.3765 2 21.3094 2 21.2417V7L4 6.14286ZM16.2426 11.2426L12 15.4853L7.75736 11.2426C5.41421 8.89949 5.41421 5.10051 7.75736 2.75736C10.1005 0.414214 13.8995 0.414214 16.2426 2.75736C18.5858 5.10051 18.5858 8.89949 16.2426 11.2426ZM12 12.6569L14.8284 9.82843C16.3905 8.26633 16.3905 5.73367 14.8284 4.17157C13.2663 2.60948 10.7337 2.60948 9.17157 4.17157C7.60948 5.73367 7.60948 8.26633 9.17157 9.82843L12 12.6569Z" fill="rgba(100,205,138,1)"></path></svg>
+                    </div>
+                    <div class="featured_info">
+                        <span>Laissez-vous guider </span>
+                        <p>
+                          Grâce à notre interface simple et sécurisée, vous pouvez partager vos données importantes avec vos proches de confiance, qui pourront ensuite les utiliser pour déclarer votre décès et faire les démarches nécessaires.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid-col-item">
+                    <div class="icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M5.00488 9.00256C5.55717 9.00256 6.00488 9.45027 6.00488 10.0026C7.63965 10.0026 9.14352 10.5629 10.3349 11.5021L12.5049 11.5026C13.837 11.5026 15.0339 12.0814 15.8579 13.0013L19.0049 13.0026C20.9972 13.0026 22.7173 14.1678 23.521 15.854C21.1562 18.9746 17.3268 21.0026 13.0049 21.0026C10.2142 21.0026 7.85466 20.3993 5.944 19.3446C5.80557 19.7281 5.43727 20.0026 5.00488 20.0026H2.00488C1.4526 20.0026 1.00488 19.5548 1.00488 19.0026V10.0026C1.00488 9.45027 1.4526 9.00256 2.00488 9.00256H5.00488ZM6.00589 12.0026L6.00488 17.0237L6.05024 17.057C7.84406 18.3175 10.183 19.0026 13.0049 19.0026C16.0089 19.0026 18.8035 17.8469 20.84 15.8731L20.9729 15.7396L20.8537 15.6392C20.3897 15.2762 19.8205 15.0509 19.2099 15.0095L19.0049 15.0026L16.8932 15.0016C16.9663 15.3235 17.0049 15.6585 17.0049 16.0026V17.0026H8.00488V15.0026L14.7949 15.0016L14.7605 14.9231C14.38 14.1295 13.593 13.5678 12.6693 13.5079L12.5049 13.5026L9.57547 13.5024C8.66823 12.577 7.40412 12.0028 6.00589 12.0026ZM4.00488 11.0026H3.00488V18.0026H4.00488V11.0026ZM13.6513 3.57794L14.0046 3.9317L14.3584 3.57794C15.3347 2.60163 16.9177 2.60163 17.894 3.57794C18.8703 4.55425 18.8703 6.13716 17.894 7.11347L14.0049 11.0026L10.1158 7.11347C9.13948 6.13716 9.13948 4.55425 10.1158 3.57794C11.0921 2.60163 12.675 2.60163 13.6513 3.57794ZM11.53 4.99215C11.3564 5.16572 11.3372 5.43514 11.4714 5.62926L11.5289 5.69819L14.0039 8.17356L16.4798 5.69926C16.6533 5.52569 16.6726 5.25627 16.5376 5.0614L16.4798 4.99215C16.3062 4.81858 16.0368 4.7993 15.8417 4.93444L15.7724 4.99236L14.0033 6.76098L12.236 4.99108L12.1679 4.93429C11.973 4.7993 11.7036 4.81858 11.53 4.99215Z" fill="rgba(100,205,138,1)"></path></svg>
+                    </div>
+                    <div class="featured_info">
+                      <span>Transmettre vos informations sensibles à vos proches </span>
+                      <p>
+                        Choisir Posteritis, c'est choisir la tranquillité de l’esprit.
+                      </p>
+                    </div>
+                </div>
+                <div class="grid-col-item">
+                    <div class="icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M5 12.5C5 12.8134 5.46101 13.3584 6.53047 13.8931C7.91405 14.5849 9.87677 15 12 15C14.1232 15 16.0859 14.5849 17.4695 13.8931C18.539 13.3584 19 12.8134 19 12.5V10.3287C17.35 11.3482 14.8273 12 12 12C9.17273 12 6.64996 11.3482 5 10.3287V12.5ZM19 15.3287C17.35 16.3482 14.8273 17 12 17C9.17273 17 6.64996 16.3482 5 15.3287V17.5C5 17.8134 5.46101 18.3584 6.53047 18.8931C7.91405 19.5849 9.87677 20 12 20C14.1232 20 16.0859 19.5849 17.4695 18.8931C18.539 18.3584 19 17.8134 19 17.5V15.3287ZM3 17.5V7.5C3 5.01472 7.02944 3 12 3C16.9706 3 21 5.01472 21 7.5V17.5C21 19.9853 16.9706 22 12 22C7.02944 22 3 19.9853 3 17.5ZM12 10C14.1232 10 16.0859 9.58492 17.4695 8.89313C18.539 8.3584 19 7.81342 19 7.5C19 7.18658 18.539 6.6416 17.4695 6.10687C16.0859 5.41508 14.1232 5 12 5C9.87677 5 7.91405 5.41508 6.53047 6.10687C5.46101 6.6416 5 7.18658 5 7.5C5 7.81342 5.46101 8.3584 6.53047 8.89313C7.91405 9.58492 9.87677 10 12 10Z" fill="rgba(100,205,138,1)"></path></svg>
+                    </div>
+                    <div class="featured_info">
+                      <span>Vos données entre de bonnes mains</span>
+                      <p>
+                        Nous nous efforçons de respecter les normes du web concernant la protection de données.
+                      </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
